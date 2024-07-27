@@ -1,0 +1,9 @@
+cluster_name     = "wisecow-cluster"
+cluster_version  = "1.21"
+subnet_ids       = ["subnet-0c8ec83cf90a23ce3", "subnet-0d7c1501029b6c395"]
+vpc_id           = "vpc-04dc921f456d982f8"
+desired_capacity = 2
+max_capacity     = 4
+min_capacity     = 1
+instance_type    = "t3.medium"
+create_cloudwatch_log_group = false  # Set to true if you want Terraform to create it
